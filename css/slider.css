@@ -1,0 +1,258 @@
+.header_bg_img_slider{
+	height: 520px;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+}
+/**{
+	outline: 1px solid red;
+}*/
+.main{
+	position: relative;
+	z-index: 5000;
+}
+.main_head{
+	display: flex;
+/*	padding: 28px;*/position: relative;
+	z-index: 5000;
+}
+.main_mini_img{
+	width: 75px;
+	height: 75px;
+	overflow: hidden;margin: 28px 16px 28px 16px;
+		background-size: cover;
+	background-position: center;
+}
+.main_menu_news{
+	margin: 20px;
+}
+.main_column {
+	display: flex;
+
+}
+.col_mini_one {
+	margin-right: 15px;
+}
+.main_news_title {
+	font-size: 18px;
+	color: #252525;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.main_news_title:after{
+	content: '';
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color:  #25282a;
+	position: relative;
+	top: -24px;
+	right: 0px;
+}
+@media (max-width:767px){
+	.main_news_title:after{
+		display: none;
+	}
+.main_head {
+	margin-top: 50px;
+}
+.header_img_slider,.slick-slider{
+	z-index: 1;
+	position: relative;
+}
+
+}
+
+
+@media (max-width:367px){
+	.main_column {
+    display: block;
+}
+}
+
+.main_news_paragref {
+	font-size: 14px;
+	color: #858585;
+
+}
+
+.slick-slide{
+
+}
+
+.main_mini_img{
+height: 90px;
+width: 30px;
+}
+.header_img_slider{
+	height: 552px;
+	
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider{
+	min-width: 300px;	position: relative;
+	height: 170px;
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+	min-width: 720px;
+
+}
+
+/* Слайд */
+.slick-slide{
+	
+	position: relative;
+	
+}}
+/* Слайд активный */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Стрелка */
+.slick-arrow{
+	display: none;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{content: '';
+
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+/* Точки */
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	margin: -30px 00px;
+}
+
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
+
+.slider .slick-arrow{
+	
+    position: absolute;
+    top: 50%; // выравнивание по вертикали
+    margin: -15px 0 0 0; // корректировка  вертикального выравнивания
+    z-index: 2; // стрелки сверху картинок
+    font-size: 0; // убираем надпись на дефолтной стрелке
+    width: 30px; // ширина стрелки
+    height: 30px; // высота стрелки
+ 
+}
+ .slider .slick-arrow.slick-prev{
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+background: url(../images/left.png);
+	background-repeat: no-repeat; 
+    position: relative;
+    z-index: 2000;
+left: 46px;
+top: 357px;
+}
+
+.slider .slick-arrow.slick-next{
+	  width: 30px;
+  height: 30px;
+  font-size: 0;
+background: url(../images/right.png);
+	background-repeat: no-repeat; 
+    position: relative;
+    z-index: 2000;left: 114px;
+top: -225px;
+
+}
+
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 10px;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+
+}
+.slider .slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+.slider__item {
+	padding: 0px 10px;
+	width: 150px;
+	height: 200px;;
+}
+
+.slider__item img{
+	max-width: 100%;
+}
+.slider__item.slick-center{
+	
+}
+.main_head {
+	z-index: 1000;
+	position: relative;
+	height: 230px;
+}
+.slider_title_block{
+	margin:180px;
+	letter-spacing: 10px;
+	width: 550px;
+	height: 40px;
+	position: relative;
+	left: -144px;
+	top: 200px;
+}
+.slider_title{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	background-color: black;
+	opacity: 0.6;
+}

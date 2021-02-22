@@ -1,0 +1,51 @@
+
+
+
+.main_map{
+	width: 890px;
+	height: 400px;
+margin: 20px auto;
+}
+.main_info {
+	display: flex;
+	margin: 0px auto;
+	background-color: #fff;
+}
+.main_info_text {
+	max-width: 535px;
+	margin: 20px; 
+}
+.main_info_form {
+}
+.form_block {display: flex;
+	padding: 10px;
+}
+.input {
+ border:2px solid #252525;
+ margin-right: 10px;
+
+ display: block;
+ width: 290px;
+ height: 54px;
+
+
+}
+.main_area {padding: 10px;margin-right: 10px;
+}
+.text_area {border:2px solid #252525;resize: none;width: 100%; 
+}
+.main_button button{
+	width: 60px;
+	height: 30px;
+	background-color: #ea5a4b;
+	color: #fff;
+
+}
+.main_button{
+	padding: 10px;
+}
+.main_info_paragraf{
+	color: #252525;
+	line-height: 25px;
+	font-size: 14px;
+}
